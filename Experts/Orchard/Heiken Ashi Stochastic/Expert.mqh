@@ -109,7 +109,7 @@ CExpert::CExpert( int kPeriod, int dPeriod, int slowing, ENUM_MA_METHOD stoMetho
       return; // no need to go further
    }
 
-   mInitResult = mStochastic.InitResult();
+   mInitResult = INIT_SUCCEEDED;
 }
 
 //
